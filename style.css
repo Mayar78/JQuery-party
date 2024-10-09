@@ -1,0 +1,281 @@
+.home
+{
+    background-image: url(8b8f1b1700493dbc6d703a896f1a0fca.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.home h2{
+    font-weight: 500;
+
+}
+.home .layer{
+    background-color: rgb(129 80 199 / 39%)
+}
+.home .open{
+    width: 270px;
+    z-index: 1;
+    left: -270px;
+
+}
+.open li a{
+text-decoration: none;
+color: rgb(107, 29, 215);
+font-size: 18px;
+
+}
+.close{
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(129 80 199 / 100%)
+}
+.openSideNav{
+    right: -85px;
+    font-size: 22px;
+    top: 45%;
+    /* transform: translateY(-50%); */
+    color: rgb(129 80 199 / 100%);
+cursor: pointer;
+    
+}
+
+/* #Home */
+/* {
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.HomeOverlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+ */
+
+
+
+
+
+/* .sidenav
+{
+    background-color: #414658;
+} */
+
+
+.open a{
+    transition: all .5s;
+}
+
+.open a:hover{
+    color:  rgb(129 80 199 / 100%)
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.slider
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+.slider h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color:rgba(130, 80, 199, 0.541);
+    cursor: pointer;
+    color: white;
+}
+
+
+.slider div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+.slider .first{
+    display:block;
+}
+
+
+#Details
+{
+   
+    background-image: url(afe3c727d6fc11a970c2e8dac10b1eff.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 330px;
+
+    
+}
+.layerBlack{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+}
+ 
+.count-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(130, 80, 199, 0.541);
+    color: white;
+}
+
+.container
+{
+    padding: 100px 0px;
+}
+
+.tim
+{
+    
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+/*section four*/
+#Content{
+    margin-top:100px;
+}
+
+#Content .head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#Content .head p{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#Content .con-info h3{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#Content .con-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+
+#Content .icons{
+    margin-top:50px;
+}
+#Content .icons p{
+    margin-bottom: 35px;
+}
+#Content i{
+    margin-right: 20px;
+    color:#777;
+}
+#Content .purple{
+    color: rgb(122, 67, 200) !important;
+}
+.sendbtn{
+    background-color: rgba(130, 80, 199) !important ;
+}
+
+
+#Content .con-info .social-list{
+    margin-top:60px;
+    color:#777;
+    
+}
+
+#Content .con-info .social-list i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#Content .con-info .social-list i:hover{
+    color:#fff;
+    background-color:  rgba(130, 80, 199, 0.541);;
+    border:1px solid  rgba(130, 80, 199, 0.541);;
+}
+#Content form input,
+#Content form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#Content form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#Content form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#chars
+{
+    font-size: 20px;
+    color: #D62E33;
+}
